@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewelry Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header style="background-color: #333; color: #fff; padding: 10px;">
+        <nav>
+            <a href="#home" style="color: #fff; text-decoration: none; margin-right: 10px;">Home</a>
+            <a href="#products" style="color: #fff; text-decoration: none; margin-right: 10px;">Products</a>
+            <a href="#contact" style="color: #fff; text-decoration: none;">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="home" style="margin-bottom: 50px;">
+            <h1 style="text-align: center;">Welcome to our Jewelry Shop</h1>
+            <p style="text-align: center;">Discover our collection of beautiful jewelry pieces.</p>
+        </section>
+        <section id="products" style="margin-bottom: 50px;">
+            <h2 style="text-align: center;">Our Products</h2>
+            <div class="product" style="display: flex; flex-direction: column; align-items: center; margin-bottom: 30px;">
+                <img src="ring.jpg" alt="Ring" style="width: 100%; max-width: 200px; height: auto; margin-bottom: 10px;">
+                <h3 style="text-align: center;">Rings</h3>
+                <p style="text-align: center;">Choose from a variety of rings for any occasion.</p>
+            </div>
+            <div class="product" style="display: flex; flex-direction: column; align-items: center; margin-bottom: 30px;">
+                <img src="earrings.jpg" alt="Earrings" style="width: 100%; max-width: 200px; height: auto; margin-bottom: 10px;">
+                <h3 style="text-align: center;">Earrings</h3>
+                <p style="text-align: center;">Find the perfect pair of earrings to complete your look.</p>
+            </div>
+            <div class="product" style="display: flex; flex-direction: column; align-items: center; margin-bottom: 30px;">
+                <img src="bracelets.jpg" alt="Bracelets" style="width: 100%; max-width: 200px; height: auto; margin-bottom: 10px;">
+                <h3 style="text-align: center;">Bracelets</h3>
+                <p style="text-align: center;">Add some sparkle to your wrist with our selection of bracelets.</p>
+            </div>
+            <div class="product" style="display: flex; flex-direction: column; align-items: center; margin-bottom: 30px;">
+                <img src="chains.jpg" alt="Chains" style="width: 100%; max-width: 200px; height: auto; margin-bottom: 10px;">
+                <h3 style="text-align: center;">Chains</h3>
+                <p style="text-align: center;">Find the perfect chain for your necklace or pendant.</p>
+            </div>
+            <div class="product" style="display: flex; flex-direction: column; align-items: center; margin-bottom: 30px;">
+                <img src="watches.jpg" alt="Watches" style="width: 100%; max-width: 200px; height: auto; margin-bottom: 10px;">
+                <h3 style="text-align: center;">Watches</h3>
+                <p style="text-align: center;">Choose from a variety of watches to keep track of time.</p>
+            </div>
+        </section>
+        <section id="contact" style="margin-bottom: 50px;">
+            <h2 style="text-align: center;">Contact Us</h2>
+            <form>
+                <label for="name" style="display: block; margin-bottom: 10px;">Name:</label>
+                <input type="text" id="name" name="name" required style="display: block; margin-bottom: 10px;">
+                <label for="email" style="display: block; margin-bottom: 10px;">Email:</label>
+                <input type="email" id="email" name="email" required style="display: block; margin-bottom: 10px;">
+                <label for="message" style="display: block; margin-bottom: 10px;">Message:</label>
+                <textarea id="message" name="message" required style="display: block; margin-bottom: 10px; width: 100%; max-width: 200px; height: 100px;"></textarea>
+                <button type="submit" style="display: block; margin-bottom: 10px;">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer style="background-color: #333; color: #fff; padding: 10px; text-align: center;">
+        <p>&copy; 2022 Jewelry Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
